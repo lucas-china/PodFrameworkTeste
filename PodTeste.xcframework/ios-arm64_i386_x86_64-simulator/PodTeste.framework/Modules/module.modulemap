@@ -1,0 +1,11 @@
+framework module PodTeste {
+  umbrella header "PodTeste-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PodTeste.Swift {
+    header "PodTeste-Swift.h"
+    requires objc
+}
